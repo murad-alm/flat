@@ -143,6 +143,7 @@
         document.querySelectorAll('[data-i18n-aria]').forEach(function(el) {
             el.setAttribute('aria-label', t(el.getAttribute('data-i18n-aria')));
         });
+        wa.setAttribute('href', waBase + '?text=' + encodeURIComponent(t('wa_text')));
         updateDynamic();
         document.querySelectorAll('.lang button').forEach(function(b) {
             b.setAttribute('aria-pressed', b.getAttribute('data-lang') === lang ? 'true' : 'false');

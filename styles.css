@@ -148,7 +148,7 @@ a {
 }
 
 .anmeldung {
-    olor: var(--moss);
+    color: var(--moss);
     font-size: .95rem;
     margin-bottom: .75rem;
     text-decoration: underline;
