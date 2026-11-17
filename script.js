@@ -48,9 +48,7 @@
             nat_4: "Edeka, Lidl and Aldi are a 10-minute walk away",
             c_h: "Interested?",
             c_p: "Send a short message with a little about yourself and when you could visit. I will get back to you quickly.",
-            mail_subject: "Flat viewing request",
-            mail_btn: "Email",
-            wa_btn: "WhatsApp",
+            wa_btn: "Telegram",
             wa_text: "Hi, I'm interested in the flat in Spandau. When could I visit?",
             foot: "Exact address shared after a first conversation.",
             lb_label: "Photo viewer",
@@ -109,9 +107,7 @@
             nat_4: "Edeka, Lidl und Aldi sind 10 Gehminuten entfernt",
             c_h: "Interesse?",
             c_p: "Schreibe mir kurz etwas über dich und wann du zur Besichtigung kommen könntest. Ich melde mich schnell zurück.",
-            mail_subject: "Besichtigungsanfrage Wohnung",
-            mail_btn: "E-Mail",
-            wa_btn: "WhatsApp",
+            wa_btn: "Telegram",
             wa_text: "Hallo, ich interessiere mich für die Wohnung in Spandau. Wann könnte ich sie besichtigen?",
             foot: "Die genaue Adresse nenne ich nach einem ersten Kontakt.",
             lb_label: "Fotoansicht",
@@ -128,8 +124,6 @@
     var dlg = document.getElementById('lightbox');
     var lbImg = document.getElementById('lb-img');
     var lbCap = document.getElementById('lb-cap');
-    var mail = document.getElementById('mail');
-    var mailBase = mail.getAttribute('href').split('?')[0];
     var wa = document.getElementById('wa');
     var waBase = wa.getAttribute('href').split('?')[0];
 
@@ -149,8 +143,6 @@
         document.querySelectorAll('[data-i18n-aria]').forEach(function(el) {
             el.setAttribute('aria-label', t(el.getAttribute('data-i18n-aria')));
         });
-        mail.setAttribute('href', mailBase + '?subject=' + encodeURIComponent(t('mail_subject')));
-        wa.setAttribute('href', waBase + '?text=' + encodeURIComponent(t('wa_text')));
         updateDynamic();
         document.querySelectorAll('.lang button').forEach(function(b) {
             b.setAttribute('aria-pressed', b.getAttribute('data-lang') === lang ? 'true' : 'false');
