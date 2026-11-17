@@ -80,9 +80,6 @@ a {
     color: var(--mist);
 }
 
-
-/* Photo placeholder: shows the file name until a real photo loads */
-
 .ph {
     position: relative;
     overflow: hidden;
@@ -148,6 +145,13 @@ a {
     color: var(--moss);
     font-size: .95rem;
     margin-bottom: .75rem;
+}
+
+.anmeldung {
+    olor: var(--moss);
+    font-size: .95rem;
+    margin-bottom: .75rem;
+    text-decoration: underline;
 }
 
 h1 {
