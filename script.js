@@ -12,7 +12,7 @@
             f_furn: "Furnishing",
             f_furn_v: "partially furnished",
             f_avail: "Period & Availability",
-            f_avail_v: "Available from 01.12.2026. Sublet duration 3 months. Able to extend.",
+            f_avail_v: "Available from 01.12.2026. Sublet duration min. 3 months. Able to extend.",
             f_stat: "Rent (incl. electricity, internet, heating, etc.)",
             f_stat_v: "1100€",
             btn_view: "Request a viewing",
