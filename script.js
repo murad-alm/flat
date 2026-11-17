@@ -73,7 +73,7 @@
             f_furn: "Ausstattung",
             f_furn_v: "teilmöbliert",
             f_avail: "Zeitraum & Verfügbarkeit",
-            f_avail_v: "Verfügbar ab 01.12.2026. Mietdauer: 3 Monate. Verlängerung möglich.",
+            f_avail_v: "Verfügbar ab 01.12.2026. Mindestmietdauer: 3 Monate. Verlängerung möglich.",
             f_stat: "Miete (inkl. Strom, internet, Heizung, etc.)",
             f_stat_v: "1100€",
             btn_view: "Besichtigung anfragen",
