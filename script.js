@@ -71,7 +71,7 @@
             f_size: "Größe",
             f_size_v: "64 m²",
             f_furn: "Ausstattung",
-            f_furn_v: "teil möbliert",
+            f_furn_v: "teilmöbliert",
             f_avail: "Verfügbar ab",
             f_avail_v: "01.12.2026",
             f_stat: "Miete (inkl. Strom, internet, Heizung, etc.)",
